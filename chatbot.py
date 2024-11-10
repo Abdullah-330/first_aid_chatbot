@@ -4,7 +4,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 # تحميل بيانات الأسئلة والأجوبة
-faq_data = pd.read_csv('/home/abdullah/Downloads/faq_first_aid.csv')
+faq_data = pd.read_csv('faq_first_aid.csv')
 
 # دالة للبحث عن الإجابة الأقرب للسؤال
 def find_answer(user_question):
