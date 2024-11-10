@@ -1,4 +1,3 @@
-!pip install fuzzywuzzy
 import streamlit as st
 import pandas as pd
 from fuzzywuzzy import fuzz
